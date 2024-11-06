@@ -7,7 +7,7 @@
       chatbotContainer.id = 'saleswin-chatbot-root';
       
       const iframe = document.createElement('iframe');
-      iframe.src = `http://localhost:5173/?token=${token}`;
+      iframe.src = `https://chat-app-ui-one.vercel.app/?token=${token}`;
       iframe.style.cssText = `
         border: none;
         position: fixed;
